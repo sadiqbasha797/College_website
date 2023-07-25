@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>Booking</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/checkout/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="bootstrap.min.css" rel="stylesheet">
+  
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="form-validation.css" rel="stylesheet">
+  </head>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div>
+        <i class="bi bi-person" style="font-size:25px; color:white;"></i>
+        <a class="navbar-brand" href="profilesignin.html" style="color:white;">Edit-Profile</a>
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="color:white;">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active" >
+            <a class="nav-link" href="index.html" style="color:white;">Home<span class="sr-only">(current)</span></a>
+          </li>
+         
+          <li class="nav-item">
+            <a class="nav-link" href="#footer" style="color:white;">Help</a>
+          </li>
+          
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <body class="bg-light">
+    
+<div class="container">
+  <main>
+    <div class="py-5 text-center">
+        <img class="mb-4" src="logo.jpeg" alt="" width="72" height="65">
+        <h2>Lets create</h2>
+      <p class="lead"></p>
+    </div>
+    <form action="" method="POST">
+
+    <div class="row g-5">
+      <div class="col-md-5 col-lg-4 order-md-last">
+        <h4 class="d-flex justify-content-between align-items-center mb-3">
+          <span class="text-primary"></span>
+        </h4>
+        <div id="">
+            <img src="https://img.freepik.com/free-photo/notebook-with-pencil-white-background_1428-339.jpg?w=360&t=st=1689870265~exp=1689870865~hmac=a05e56a5c3356de0c5269a298a7030a2fee81283d7c2d1e3ff31309b6b52a0c0" alt="" width="100%" height="425">
+          </div>
+        
+      </div>
+      <div class="col-md-7 col-lg-8">
+        <h4 class="mb-3">Details</h4>
+        <form class="needs-validation" novalidate>
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <label for="firstName" class="form-label">Title</label>
+              <input type="text" class="form-control" id="firstName" name="title" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                Valid title name is required.
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <label for="lastName" class="form-label">Event Id</label>
+              <input type="text" class="form-control" id="lastName" placeholder="" name="id" value="" required>
+              <div class="invalid-feedback">
+                Valid id is required.
+              </div>
+            </div>
+
+
+            <div class="col-12">
+              <label for="email" class="form-label">Enter Rule1</label>
+              <input type="text" class="form-control" id="email" name="rule1" placeholder="" required>
+              <div class="invalid-feedback">
+                Please enter a valid email.
+              </div>
+            </div>
+
+            <div class="col-12">
+                <label for="email" class="form-label">Enter Rule2(optional)</label>
+                <input type="text" class="form-control" id="email" name="rule1" placeholder="" required>
+                <div class="invalid-feedback">
+                  Please enter a valid email.
+                </div>
+              </div>
+
+              <div class="col-12">
+                <label for="email" class="form-label">Enter Rule3(optional)</label>
+                <input type="text" class="form-control" id="email" name="rule1" placeholder="" required>
+                <div class="invalid-feedback">
+                  Please enter a valid email.
+                </div>
+              </div>
+
+              <div class="col-12">
+                <label for="email" class="form-label">Enter Rule4(optional)</label>
+                <input type="text" class="form-control" id="email" name="rule1" placeholder="" required>
+                <div class="invalid-feedback">
+                  Please enter a valid email.
+                </div>
+              </div>
+
+            <form class="needs-validation" novalidate>
+              <div class="row g-3">
+                <div class="col-sm-6">
+                  <label for="city" class="form-label">Date</label>
+                  <input type="date" class="form-control" id="city" name="date" placeholder="" value="" required>
+                  <div class="invalid-feedback">
+                    Valid date is required.
+                  </div>
+                </div>
+    
+                <div class="col-sm-6">
+                  <label for="lastName" class="form-label">Time</label>
+                  <input type="time" class="form-control" id="time" placeholder="" name="num" value="" required>
+                  <div class="invalid-feedback">
+                    Valid time id is required.
+                  </div>
+                </div>
+
+           
+
+          <hr class="my-4">
+
+          
+
+          <h5 class="mb-3">Describe about the Event in 150 words</h5>   
+          <div class="row gy-3">
+           <textarea type="text"  cols="30" rows="8" name="about" id="problem" required></textarea>
+          
+           <div class="col-sm-6">
+            <label for="id" class="form-label">Staff Id</label>
+            <input type="num" class="form-control" id="id" placeholder="" name="id" value="" required>
+            <div class="invalid-feedback">
+              Valid Id  is required.
+            </div>
+            
+          
+            <div class="col-md-3">
+                <label for="image" class="form-label">Upload image</label>
+                <input type="file" class="form-control" id="image" name="image"  required>
+                <div class="invalid-feedback">
+                  image  required.
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          </div>
+
+          <hr class="my-4">
+
+          <button class="w-100 btn btn-primary btn-lg" type="submit" value="register">Submit</button>
+        </form>
+      </div>
+    </div>
+  </form>
+  </main>
+
+  <footer class="my-5 pt-5 text-muted text-center text-small">
+    <p class="mb-1">&copy; 2022–2023 Hello DOC!</p>
+    <ul class="list-inline">
+      <li class="list-inline-item"><a href="#">Privacy</a></li>
+      <li class="list-inline-item"><a href="#">Terms</a></li>
+      <li class="list-inline-item"><a href="#">Support</a></li>
+    </ul>
+  </footer>
+</div>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      <script src="form-validation.js"></script>
+  </body>
+</html>

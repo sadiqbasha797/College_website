@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>Carousel Template · Bootstrap v5.0</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+
+    
+    <script src="bootstrap.bundle.min.js"></script>
+
+    <!-- Bootstrap core CSS -->
+<link href="bootstrap.min.css" rel="stylesheet">
+<link href="features.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      .display-5{
+        font-size: 5vw;
+      } 
+      .a{
+        text-decoration: none;
+        color: white;
+      }
+    </style>
+
+    <style>
+        .cultural-literary {
+          transition: font-size 0.3s ease;
+        }
+      
+        .cultural-literary:hover {
+          font-size: 6vw; /* Adjust the font size as desired */
+          color:rgb(187, 106, 106);
+        }
+      </style>
+      <style>
+        .card-cover {
+          transition: transform 0.3s ease;
+        }
+      
+        .card-cover:hover {
+          transform: scale(1.1);
+        }
+        .welcome-text {
+            animation: fadeIn 4s;
+          }
+        
+          @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(20px); }
+            100% { opacity: 1; transform: translateY(0); }
+          }
+          @keyframes fadeIn {
+        0% { opacity: 0; transform: translateY(20px); }
+        100% { opacity: 1; transform: translateY(0); }
+      }
+    
+      </style>
+            
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+    <link href="heroes.css" rel="stylesheet">
+
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <div>
+        <img src="logo.jpeg" style="width:60px; height: 60px;"/>
+      </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="staffhome.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="teceve.html"></a>
+              </li>
+             
+              
+          
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="https://gecgudlavalleru.ac.in/images/admin/1610778341_Principal.jpeg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="600" height="400" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3 welcome-text" style="color:chocolate; font-size:5vw;"> <Strong style="color:black;font-size:6vw;">Welcome</Strong><br>Dr.G.V.S.N.R.V<br>Prasad sir</h1>
+            <p class="lead">Join us as we celebrate 25 years of excellence, memories, and growth at our College Silver Jubilee. Together, let's cherish the past and embrace a promising future!</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">About</button>
+              <button type="button" class="btn btn-outline-secondary btn-lg px-4">Gallery</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+  <div class="container px-4 py-5" id="custom-cards">
+    
+
+    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('https://img.freepik.com/free-photo/pencil-bulb-creative-idea-pen-tool-created-clipping-path-included-jpeg-easy-composite_460848-8167.jpg?w=826&t=st=1689868229~exp=1689868829~hmac=321d718f03706ce6dd5e21dcafaf7d4578a6632cef9359696d8851d6d0d3d504');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+             <a href="create.html" class="a">  <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style=""><strong>Create Event</strong></h2></a>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+                <img src="logo.jpeg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                <small>SRGEC</small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                <small style="">25-01-2024</small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('https://img.freepik.com/free-photo/flat-lay-table-workplace-closeup-man-hands-home-working-typing-laptop_285396-10770.jpg?w=826&t=st=1689868277~exp=1689868877~hmac=9ebd0ed8aaa043b5173f267ff573d43b2c1d7592d6662ecfc29496b5e06c8f3a');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+         <a href="edit.html" class="a"><h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Edit Event</h2></a>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+                <img src="logo.jpeg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                <small>SRGEC</small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                <small>25-01-24</small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('https://img.freepik.com/free-photo/top-view-international-worker-s-day-still-life_23-2150337548.jpg?w=900&t=st=1689868410~exp=1689869010~hmac=5ab7e5e861ed42b2b7033908b9f222c95ee2e2e6f00e4c1a140cddcb733f1dca');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+            <a href="cult3.html" class="a"><h2 class="pt-5 mt-5 mb-4 display-6  lh-1 fw-bold">Manage schedule</h2></a>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+                <img src="logo.jpeg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                <small>SRGEC</small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                <small>25-01-24</small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div></div>
+  
+
+
+  <!-- FOOTER -->
+  <footer class="footer mt-auto py-3 bg-light">
+    <div class="container">
+      
+      <div>
+        <img src="logo.jpeg" alt="" style="width:70px;height:70px;">
+      </div>
+      <span class="text-muted">
+      <p>Sheshadrirao Gudlavlleru Engineering College <br>
+        Mail : sregecgudlavalleru@gmail.com<br>
+        Co-ordinators : XXXXXX, XXXXX <br>
+        Contact : 973763788 </p></span>
+      </div>
+      
+    
+    </div>
+  </footer>
+</main>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>

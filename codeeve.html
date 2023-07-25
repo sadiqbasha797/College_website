@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>Carousel Template · Bootstrap v5.0</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+
+    
+    <script src="bootstrap.bundle.min.js"></script>
+
+    <!-- Bootstrap core CSS -->
+<link href="bootstrap.min.css" rel="stylesheet">
+<link href="features.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      .display-5{
+        font-size: 5vw;
+      } 
+      .a{
+        text-decoration: none;
+        color: white;
+      }
+    
+      .tt{
+        color: rgb(53, 53, 123);
+      }
+    </style>
+    <style>
+      .card-cover {
+        transition: transform 0.3s ease;
+      }
+    
+      .card-cover:hover {
+        transform: scale(1.1);
+      }
+    </style>
+    <style>
+      .cultural-literary {
+        transition: font-size 0.3s ease;
+      }
+    
+      .cultural-literary:hover {
+        font-size: 6vw; /* Adjust the font size as desired */
+        color :rgb(187, 106, 106);
+      }
+    </style>
+        
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+    <link href="heroes.css" rel="stylesheet">
+
+  </head>
+  <body>
+    
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <div>
+            <img src="logo.jpeg" style="width:60px; height: 60px;"/>
+          </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="teceve.html">Cultural & Literary</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sportseve.html">Sports & games</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="codeeve.html">Technical Events</a>
+              </li>
+              
+            </ul>
+            <form class="d-flex">
+              <button class="btn btn-outline-success" type="submit">Staff Login</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+<main>
+  <div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="https://img.freepik.com/free-vector/illustration-social-media-concept_53876-18383.jpg?t=st=1689824569~exp=1689825169~hmac=7e7a2a05cda08ad4ab405638f90d223f6af7e3daed28099411ddec3ccb7f76db" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+       <h1 class=" display-5 fw-bold lh-1 mb-3 cultural-literary">Technical <br> Event</h1>
+        <p class="lead">Join us as we celebrate 25 years of excellence, memories, and growth at our College Silver Jubilee. Together, let's cherish the past and embrace a promising future!</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <a href="schedule.html"><button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Schedule</button></a>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">About</button>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+
+
+  <div class="container px-4 py-5" id="custom-cards">
+    
+    <h1 class="pb-2 border-bottom">All Technical Events</h1>
+
+    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg?w=740&t=st=1689824662~exp=1689825262~hmac=cff99a5cd65ea446ecbbfb2419a1c789938f2cb607c0a939f79dacffb214f4f7');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+             <a href="tec1.html" class="a">  <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Code war</h2></a>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+                <img src="logo.jpeg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                <small>SRGEC</small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                <small>25-01-2024</small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+     
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('https://img.freepik.com/free-photo/html-system-website-concept_23-2150376770.jpg?w=900&t=st=1689824793~exp=1689825393~hmac=9bce56971ff1cc3f5b5e91cc7df733650cdc8a73b75032df25d114a951906f27');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+         <a href="tech2.html" class="a"><h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">CodeGaze</h2></a>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+                <img src="logo.jpeg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                <small>SRGEC</small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                <small>25-01-24</small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('https://img.freepik.com/free-vector/orange-question-mark-background-with-text-space_1017-27394.jpg?w=740&t=st=1689824959~exp=1689825559~hmac=5b3d253fde8ee246a37c70d4c0644112add93acb4c254c6e0f537061f4944fc5');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+            <a href="tech3.html" class="a"><h2 class="pt-5 mt-5 mb-4 display-6  lh-1 fw-bold">Technical Quiz</h2></a>
+            <ul class="d-flex list-unstyled mt-auto">
+              <li class="me-auto">
+                <img src="logo.jpeg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+              </li>
+              <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                <small>SRGEC</small>
+              </li>
+              <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                <small>25-01-24</small>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+
+    <hr class="featurette-divider">
+    <style>
+      footer{
+        background-color: rgb(49, 77, 122);
+      }
+      .link-secondary{
+        color: white;
+      }
+      footer {
+        background-color: rgb(49, 77, 122);
+        color: white;
+        padding: 20px 0;
+      }
+    
+      .list-unstyled .link-secondary {
+        color: white;
+        text-decoration: none;
+        transition: color 0.3s;
+      }
+    
+      .list-unstyled .link-secondary:hover {
+        color: crimson;
+        transform: scale(1.1);
+      }
+    
+      .col-4-md img {
+        width: 200px;
+        height: 200px;
+      }
+    </style>
+    
+      <!-- FOOTER -->
+      <footer class="container py-5">
+        <div class="row">
+          <div class="col-12 col-md">
+          </div>
+          <div class="col-4-md col-md" style="padding-left: 80px;">
+           <img src="logo.jpeg" alt="" style="width: 200px; height:200px;">
+          </div>
+          
+        
+          <div class="col-4 col-md">
+            <h5 style="color:rgb(255, 255, 0);">Adrress</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-secondary" href="#"><i class="bi bi-house"></i>&nbsp;&nbsp;Seshadrirao Gudlavalleru Engineering College</a></li>
+              <li><a class="link-secondary" href="#">Gudlavalleru,krishna,521356</a></li>
+              <li style="color:rgb(255, 255, 0);">Quicklinks</li>
+              <li><a class="link-secondary" href="#">>Ecap</a></li>
+              <li><a class="link-secondary" href="#">>College</a></li>
+              <li><a class="link-secondary" href="#">>Departments</a></li>
+    
+            </ul>
+          </div>
+    
+          <div class="col-4 col-md">
+            <h5 style="color:rgb(255, 255, 0);">Contact</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-secondary" href="#"> <i class="bi bi-envelope-check-fill"></i>&nbsp;&nbsp;Email : srgecgudlavelleru@gmail.com</a></li>
+              <li><a class="link-secondary" href="#"><i class="bi bi-linkedin"></i>&nbsp;&nbsp;LinkedIn : //http:linkedinsrgec.com-9889890876//</a></li>
+              <li><a class="link-secondary" href="#"><i class="bi bi-twitter"></i>&nbsp;&nbsp;Twitter : @srgecgudlavelleru</a></li>
+              <li><a class="link-secondary" href="#"><i class="bi bi-instagram"></i>&nbsp;&nbsp;Instagram : @srgecgudlavelleru</a></li>
+              <li><a class="link-secondary" href="#"><i class="bi bi-telephone"></i>&nbsp;&nbsp;Tel - 9897667876</a></li>
+    
+            </ul>
+          </div>
+         </div>
+        </div>
+      </footer>
+    
+    
+</main>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>
